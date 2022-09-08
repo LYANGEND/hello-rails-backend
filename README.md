@@ -7,12 +7,12 @@ This project is a simple example of a React and Rails application. It displays a
 
 ## GETTING STARTED
 
-To get started, you need to install the necessary dependencies.
-
 Run the following commands
 
-- To install the dependencies: `npm install`
-- To start the server: `npm start`
+- To install the dependencies: `bundle install`
+- To create the local database: `rails db:create`
+- To seed the database: `rails db:seed`
+
 
 ## About me
 
