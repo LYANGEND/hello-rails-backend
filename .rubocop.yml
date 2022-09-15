@@ -26,8 +26,7 @@ Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
   IgnoredMethods: ['describe']
-
-  Max: 50
+  Max: 30
 
 Style/Documentation:
   Enabled: false
@@ -58,5 +57,4 @@ Style/HashEachMethods:
 Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
-
   Enabled: false

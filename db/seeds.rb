@@ -6,10 +6,9 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Greeting.create([
-    { message: "Hello World!" },
-    { message: "Welcome to the new world!" },
-    { message: "Happy coding!" },
-    { message: "Coding is not easy!" },
-    { message: "Good luck and see you later!" },
-])
+# dummy greeting data
+Greeting.create(message: 'Hello Rails!')
+Greeting.create(message: 'Hello Ruby!')
+Greeting.create(message: 'Hello React!')
+Greeting.create(message: 'HI!  Welcome to Rails React App!')
+Greeting.create(message: 'HI!  Greeting from the App!')
